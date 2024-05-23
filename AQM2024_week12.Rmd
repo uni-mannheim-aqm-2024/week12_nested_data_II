@@ -126,13 +126,13 @@ For this week, I added some additional country level variables:
   
 We will only work with the `c_parliamentary` variable, but you can play around with the others if you want to.
 
-The data is time-series cross-section data: We observe multiple elections in different (european) countries, i.e. elections are nested in countries.
+The data is time-series cross-section data: We observe multiple elections in different (European) countries, i.e. elections are nested in countries.
 
 ![Nested Data (3)](images/nested3.png)
 
 We already noted last week that this is a challenging research question because there may be unobserved and therefore ommitted confounding variables. Because the data structure is hierarchical, we can think of potential counfounders on the *country level (variables that vary between countries but not are constant over time)* and on the *election level (variables that vary within countries)*.
 
-### A second look onto fixed effects regression models
+### A second look into fixed effects regression models
 
 To motivate this session, let's start with the fixed effects regression model from last week and remind ourselves about the **advantages** and **disadvantages** of including fixed effects in our model.
 
@@ -167,8 +167,8 @@ Let's turn towards the disadvantage of fixed effects. By including country fixed
 
 Even though this is great news for many research projects (we need to rely on fewer assumptions for causal identification!), two things are not possible anymore once we include country fixed effects:
 
-  1. We cannot learn how **differences in vote share between countries** relates to higher or lower **vote shares of cabinet parties between countries**?
-  2. We cannot learn about the effect of higher level variables on our dependent variable anymore.
+  1. We cannot learn how **differences in vote share between countries** relates to higher or lower **vote shares of cabinet parties between countries**
+  2. We cannot learn about the effect of higher level variables on our dependent variable anymore
 
 To illustrate the second point, let's see what happens if we include a dummy variable that indicates whether a country has a parliamentary system or not (a time-invariant country level variable):
 
@@ -782,7 +782,7 @@ If you want to read more about this model, I recommend the paper by [Bell and Jo
 
 ## Concluding Remarks:
 
-This was the final lab session! If you wish to speak to us about your term paper, we will be available during our regular office hours on Tuesday. Please book an appointment.
+This was the final lab session! If you wish to speak to us about your term paper, I will be available during my regular office hours on Tuesday next week (and later if needed). Please book an appointment.
 
 Thank you for your participation!
 
